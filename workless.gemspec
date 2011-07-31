@@ -49,17 +49,20 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<heroku>, [">= 0"])
       s.add_runtime_dependency(%q<rush>, ["= 0.6.7"])
       s.add_runtime_dependency(%q<delayed_job>, ["~> 2.1.0"])
+      s.add_runtime_dependency(%q<eventmachine>, ["~> 0.12.10"])
     else
       s.add_dependency(%q<rails>, [">= 3.0.0"])
       s.add_dependency(%q<heroku>, [">= 0"])
       s.add_dependency(%q<rush>, ["= 0.6.7"])
       s.add_dependency(%q<delayed_job>, ["~> 2.1.0"])
+      s.add_dependency(%q<eventmachine>, ["~> 0.12.10"])
     end
   else
     s.add_dependency(%q<rails>, [">= 3.0.0"])
     s.add_dependency(%q<heroku>, [">= 0"])
     s.add_dependency(%q<rush>, ["= 0.6.7"])
     s.add_dependency(%q<delayed_job>, ["~> 2.1.0"])
+    s.add_dependency(%q<eventmachine>, ["~> 0.12.10"])
   end
 end
 
